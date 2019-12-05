@@ -5,26 +5,26 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 
 const Home = ({ posts }) => (
+ 
   <div className="container">
-    <Head>
+     <Head>
       <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <div className="hero">
-      <h1 className="hero-title">Selman Kahya</h1>
+      <h1 className="hero-title">Hasan Korkmaz</h1>
       <div className="hero-social-links">
-        <Link href="https://medium.com/@selmankahya">
-          <a className="social-link">Medium</a>
-        </Link>
-        <Link href="https://www.twitter.com/selmankahyax">
+        <Link href="https://twitter.com/Karaca42Hasan">
           <a className="social-link">Twitter</a>
         </Link>
-        <Link href="https://www.linkedin.com/in/selmankahya">
-          <a className="social-link">LinkedIn</a>
+        <Link href="https://www.youtube.com/channel/UC4r_L3fnwz6siKX0qYRPWLA?view_as=subscriber">
+          <a className="social-link">Youtube</a>
         </Link>
-        <Link href="https://www.instagram.com/selmankahyax/?hl=en">
+        <Link href="https://www.instagram.com/hasankorkmazdev/">
           <a className="social-link">Instagram</a>
+        </Link>
+        <Link href="https://github.com/Hasan-Korkmaz">
+          <a className="social-link">Git</a>
         </Link>
       </div>
     </div>
@@ -73,6 +73,28 @@ const Home = ({ posts }) => (
         color: #35459e;
         text-decoration: none;
       }
+
+      /* Color Theme Swatches in Hex */
+      .turuncu-1-hex { color: #925528; }
+      .turuncu-2-hex { color: #F45411; }
+      .turuncu-3-hex { color: #F04B19; }
+      .turuncu-4-hex { color: #D9430D; }
+      .turuncu-5-hex { color: #260701; }
+      
+      /* Color Theme Swatches in RGBA */
+      .turuncu-1-rgba { color: rgba(145, 84, 40, 1); }
+      .turuncu-2-rgba { color: rgba(244, 84, 17, 1); }
+      .turuncu-3-rgba { color: rgba(239, 75, 24, 1); }
+      .turuncu-4-rgba { color: rgba(216, 66, 13, 1); }
+      .turuncu-5-rgba { color: rgba(38, 7, 1, 1); }
+      
+      /* Color Theme Swatches in HSLA */
+      .turuncu-1-hsla { color: hsla(25, 56, 36, 1); }
+      .turuncu-2-hsla { color: hsla(17, 91, 51, 1); }
+      .turuncu-3-hsla { color: hsla(13, 87, 51, 1); }
+      .turuncu-4-hsla { color: hsla(15, 88, 45, 1); }
+      .turuncu-5-hsla { color: hsla(9, 94, 7, 1); }
+
     `}</style>
   </div>
 );
